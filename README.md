@@ -13,7 +13,7 @@ A simple Python project to explore the concepts of blockchain technology. This b
   
 ## Some of my own questions about blockchain:
 **Q**: How do we know the transactions being added are legitimate? Meaning, how do we prevent someone from adding a transaction that says, "Bob gave me 50 BTC" when Bob didn't actually agree to do this?  
-**A**: ?  
+**A**: Different blockchains will have different methods of doing this. However, with the BTC example - BTC utilizes public and private keys. The public key is the address at which one can specify where they would like to send their BTC. The private key, which should never be shared, is used to prove ownership of the wallet in which BTC is being sent from. In order for Bob to send BTC, he must add a transaction to "unconfirmed_data" which involves those things. Then, it will be verified and added to the blockchain via mining.
 
 **Q**: Since blockchains are fully distributed and open source, how do we know someone is executing a legitimate version of the code?  
 **A**: ?  
